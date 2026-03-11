@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: purple;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.accordianApp{
+  /* border:solid red 2px; */
+  width:70rem;
+  display:flex;
+  /* gap:-30px; */
+  margin: 3rem auto;
+  /* justify-content: space-around; Not Working */
+  padding: 30px 30px 10px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.questionBox{
+  /* border:solid black 2px; */
+  margin:0 2rem 0 0;
+  width:50rem;
 }
